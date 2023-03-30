@@ -101,6 +101,7 @@ li {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    /* position: fixed; */
     width: 200px;
     height: 100vh;
 }
@@ -142,15 +143,16 @@ h3 {
     font-size: 64px;
     font-style: normal;
     font-weight: 500;
+    margin-bottom: 30px;
 }
 
-.about-me-container {
+.main-info-container {
     display: flex;
     align-items: center;
     padding-right: 80px;
 }
 
-.about-me {
+.main-text {
     color: #ffffff;
     font-size: 20px;
     margin-bottom: 25px;
@@ -164,4 +166,40 @@ h3 {
 
 .skills-img {
     margin: 0 5px;
+}
+
+.progress {
+    margin-top: 50px;
+}
+
+.progress p {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.progress-bar-space {
+    height: 5px;
+    width: 100%;
+    background-color: #ffffff80;
+    margin-bottom: 20px;
+}
+
+.progress-bar-value {
+    height: 5px;
+}
+
+.front-end {
+    background-color: #00fdcf;
+    width: 85%;
+}
+
+.react-js {
+    background-color: #bb00fd;
+    width: 70%;
+}
+
+.back-end {
+    background-color: #ff7042;
+    width: 50%;
 }
