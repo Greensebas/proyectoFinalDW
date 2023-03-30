@@ -151,7 +151,6 @@ h3 {
 .main-info-container {
     display: flex;
     align-items: center;
-    /* padding-right: 80px; */
 }
 
 .main-text {
@@ -241,4 +240,37 @@ h3 {
     color: #ffffff;
     font-size: 20px;
     font-weight: bolder;
+}
+
+/* CONTACT */
+.form {
+    width: 50vh;
+}
+
+.label {
+    width: 100%;
+}
+
+.input {
+    background-color: #ffffff80;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin: 4px;
+}
+
+.submit-btn {
+    background-color: #ffffff80;
+    border: none;
+    margin: 4px;
+    padding: 5px;
+    
+}
+
+.msg-input {
+    height: 300px;
+}
+
+.main-contact {
+    justify-content: space-evenly;
 }
