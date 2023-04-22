@@ -13,6 +13,23 @@ body {
     background-size: cover;
 }
 
+.bgc-fff80{
+    background-color: #ffffff80;
+    /* background-color: #000000; */
+}
+
+.bgc-ccc80{
+    background-color: #cccccc80;
+}
+
+
+.nav-a {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Brand init */
 .brand-name {
     text-align: center;
     margin: 30px 0px
@@ -32,9 +49,40 @@ h4 {
     color: #ffffff;
 }
 
+h5 {
+    color: #ffffff;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 800;
+}
+/* Brand end */
+
+/* Logo init */
+.logo-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-container p {
+    color: #ffffff;
+    margin: 0 8px;
+    font-size: 10px;
+    font-weight: 300;
+}
+/* Logo end */
+
+/* Navbar init */
+.dropdown-hover:hover {
+    background-color: #83838380;
+}
+/* Navbar end */
+
 .header-home {
     position: sticky;
-    top: -150px;
+    /* top: -175px; */
+    top: 0px;
 }
 
 .home-navbar {
@@ -207,11 +255,11 @@ h3 {
 
 /* PROGRESS BAR */
 
-.progress {
+.progress-bar {
     margin-top: 50px;
 }
 
-.progress p {
+.progress-bar p {
     color: #ffffff;
     font-size: 28px;
     margin-bottom: 5px;
