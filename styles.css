@@ -459,30 +459,11 @@ li {
 
 /* MEDIA QUERIES */
 
-    /* 768 */
-@media screen and (max-width: 768px) {
-    /* About */
-    .about-section {
-        flex-direction: column;
-    }
-
-    .about-img {
-        margin: 0;
-    }
-
-
-
-    /* Skills */
-    .main-skills-container {
-        flex-direction: column;
-    }
-    .skills {
-        margin: 0;
-    }
-}
-
     /* 992 */
 @media screen and (max-width: 992px) {
+    .brands-container {
+        display: none;
+    }
     h3 {
         font-size: 50px;
     }
@@ -494,5 +475,45 @@ li {
     .progress-bar p {
         font-size: 20px;
         margin: 12.5px 0;
+    }
+}
+
+    /* 768 */
+@media screen and (max-width: 768px) {
+    /* Banner */
+    .banner-greet h1 {
+        font-size: 64px;
+    }
+    .banner-greet p {
+        font-size: 33.6px;
+    }
+
+
+    /* About */
+    .about-section {
+        flex-direction: column;
+    }
+
+    .about-img {
+        margin: 0;
+    }
+
+    /* Skills */
+    .main-skills-container {
+        flex-direction: column;
+    }
+    .skills {
+        margin: 0;
+    }
+}
+
+/* 576 */
+@media screen and (max-width: 576px) {
+    /* Banner */
+    .banner-greet h1 {
+        font-size: 50px;
+    }
+    .banner-greet p {
+        font-size: 33.6px;
     }
 }

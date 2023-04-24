@@ -52,7 +52,6 @@
                   <li><a class="dropdown-item text-white dropdown-hover" href="pages/about.html">About</a></li>
                   <li><a class="dropdown-item text-white dropdown-hover" href="pages/mySkills.html">My skills</a></li>
                   <li><a class="dropdown-item text-white dropdown-hover" href="pages/works.html">Works</a></li>
-                  <!-- <li><hr class="dropdown-divider text-white"></li> -->
                   <li><a class="dropdown-item text-white dropdown-hover" href="pages/contact.html">Contact</a></li>
                 </ul>
               </li>
@@ -66,11 +65,13 @@
 
     
     <!-- BANNER INIT -->
-    <section class="d-flex flex-column align-items-center justify-content-center ">
-        <div class="banner-greet">
-            <h1>Hi,</h1>
-            <h1>I'm <span>Sebas</span>!</h1>
-            <p>Font End Developer</p>
+    <section class="container">
+        <div class="d-flex flex-column align-items-center justify-content-center ">            
+            <div class="banner-greet">
+                <h1>Hi,</h1>
+                <h1>I'm <span>Sebas</span>!</h1>
+                <p>Font End Developer</p>
+            </div>
         </div>
     </section>
     <!-- BANNER END -->
@@ -97,16 +98,16 @@
     <main class="home-main">
 
         <!-- ABOUT ME -->
-        <section class="container">
+        <section class="container mt-containers">
             <h3>About me</h3>
-            <div class="flex-container">
+            <div class="d-flex justify-content-between align-items-center about-section">
                 <div>
                     <p class="main-text">
                         I’m a Front-End Developer located in Argentina. I have a serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
                     </p>
                     <p class="main-text">
                         I have a degree in psychology and I practice my profession in the public and private sphere. I am responsible, diligent and dedicated, qualities that I use in everything I do. I am a multi-instrumentalist musician but I have perfected myself on the drums, an instrument that I have been playing since I was 14 years.
-
+    
                     </p>
                     <p class="main-text">
                         I like sports, reading and programming, tasks that I do in my spare time. I permanently try to train myself in different disciplines that are of interest to me and to be in continuous movement.
@@ -115,8 +116,10 @@
                         Well-organised person, problem solver, independent employee with high attention to detail. Interested in the entire frontend spectrum and working on ambitious projects with positive people.
                     </p>
                 </div>
-                <div class="img-container">
-                    <img src="../img/foto_perfil_300_480.jpg" alt="Sebastián Acevedo">
+                
+                <!-- <div class="img-container"> -->
+                <div class="about-img">
+                    <img src="../img/foto_perfil_250_400.png" alt="Sebastián Acevedo">
                 </div>
             </div>
         </section>
@@ -124,8 +127,8 @@
         <!-- MY SKILLS -->
         <section class="container mt-containers">
             <h3>Skills & Experience</h3>
-            <div class="flex-container">
-                <div>
+            <div class="d-flex align-items-center main-skills-container">
+                <div class="skills">
                     <p class="main-text">
                         Since beginning my journey as a freelance developer nearly 2 years ago, I’ve done remote work for agencies, consulted for startups, and collaborated with talented people to create web products for both business and consumer use.
                     </p>
@@ -157,8 +160,8 @@
                     </div>
     
                 </div>
-               
-                <div class="img-container">
+                
+                <div class="d-flex">
                     <img class="skills-img" src="../img/skills_1.png" alt="My skills">
                     <img class="skills-img" src="../img/skills_2.png" alt="My skills">
                 </div>
@@ -167,7 +170,7 @@
 
         <!-- WORKS -->
         <section class="container mt-containers">
-            <div class="">
+            <div>
                 <h3>My works</h3>
     
                 <div class="works-grid">
@@ -216,7 +219,7 @@
         </section>
 
         <!-- CONTACT -->
-        <section class="container">
+        <!-- <section class="container">
             <h3>Contact me</h3>
             <p class="main-text">
                 I’m interested in freelance opportunities - especially ambitious or large projects. However, if you have other request or question, don’t hesitate to use the form.
@@ -252,7 +255,7 @@
                 </div>
             </div>
 
-        </section>
+        </section> -->
 
     </main>
 
