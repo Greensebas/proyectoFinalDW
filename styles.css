@@ -78,7 +78,9 @@ li {
     list-style-type: none;
 }
 
-
+.mt-containers {
+    margin-top: 50px;
+}
 
 /* Logo init */
 .logo-container {
@@ -197,7 +199,7 @@ li {
 }
 
 
-/* FOOTER INIT */
+/* Footer init */
 .footer-home {
     padding-bottom: 60px;
     padding-top: 30px;
@@ -220,15 +222,11 @@ li {
     width: 23px;
     height: 23px;
 }
-/* FOOTER END */
+/* Footer end */
 
 
 
-/* NO HOME */
 
-.principal-container {
-    display: flex;
-}
 
 
 /* MENU NAVBAR */
@@ -287,21 +285,31 @@ li {
 .main-text {
     color: #ffffff;
     font-size: 20px;
-    margin-bottom: 25px;
+    margin: 12.5px 0;
 }
 
-.img-container {
+
+/* About init */
+.about-img {
     margin-left: 50px;
     display: flex;
     justify-content: center;
+    height: 400px;
+    transition: transform 0.3s ease-out;
 }
 
+.about-img:hover {
+    transform: scale(0.98);
+}
+/* about end */
+
+
+/* Skills init */
 .skills-img {
     margin: 0 5px;
 }
 
-/* PROGRESS BAR */
-
+    /* Progress bar init */
 .progress-bar {
     margin-top: 50px;
 }
@@ -337,12 +345,10 @@ li {
     background-color: #ff7042;
     width: 50%;
 }
+    /* Progress bar end */
+/* Skills end */
 
-/* WORKS */
-.mt-containers {
-    margin-top: 50px;
-}
-
+/* Works init */
 .works-grid {
     display: grid;
     grid-template-rows: repeat(auto-fill, 170px);
@@ -434,8 +440,9 @@ li {
     margin: 0;
     font-size: 17px;
 }
+/* Works end */
 
-/* CONTACT */
+/* Contact init */
 .main-contact {
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -473,3 +480,4 @@ li {
 .msg-input {
     height: 300px;
 }
+/* Contact end */
