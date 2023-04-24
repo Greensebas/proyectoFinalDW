@@ -269,6 +269,10 @@ li {
 
 
 /* Skills init */
+.skills {
+    margin-right: 20px;
+}
+
 .skills-img {
     margin: 0 5px;
 }
@@ -279,8 +283,9 @@ li {
 }
 
 .progress-bar p {
+    text-align: left;
     color: #ffffff;
-    font-size: 28px;
+    font-size: 25px;
     margin-bottom: 5px;
 }
 
@@ -311,6 +316,9 @@ li {
 }
     /* Progress bar end */
 /* Skills end */
+
+
+
 
 /* Works init */
 .works-grid {
@@ -453,11 +461,22 @@ li {
 
     /* 768 */
 @media screen and (max-width: 768px) {
+    /* About */
     .about-section {
         flex-direction: column;
     }
 
     .about-img {
+        margin: 0;
+    }
+
+
+
+    /* Skills */
+    .main-skills-container {
+        flex-direction: column;
+    }
+    .skills {
         margin: 0;
     }
 }
@@ -469,6 +488,11 @@ li {
     }
     .main-text {
         font-size: 15px;
+        margin: 12.5px 0;
+    }
+
+    .progress-bar p {
+        font-size: 20px;
         margin: 12.5px 0;
     }
 }
