@@ -279,7 +279,14 @@ li {
 
 .skills-img {
     margin: 0 5px;
+    transition: transform 0.3s ease-out;
 }
+
+.skills-img:hover {
+    transform: scale(0.98);
+}
+
+
 
     /* Progress bar init */
 .progress-bar {
@@ -425,6 +432,13 @@ li {
     flex-wrap: wrap;
 }
 
+.contact-form {
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+    width: 600px;
+}
+
 .contact {
     margin: 10px 10px;
 }
@@ -433,29 +447,65 @@ li {
     width: 100%;
 }
 
+.form-container {
+    width: 100%;
+}
+
+.form-lb-in {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 100%;
+
+}
+
 .label {
     width: 100%;
 }
 
 .input {
     background-color: #ffffff80;
-    min-width: 500px;
+    width: 100%;
     padding: 5px;
     box-sizing: border-box;
     border: none;
     margin: 4px;
 }
 
+.input:hover {
+    background-color: #ffffff90;
+}
+
+.input:focus {
+    border: 2px solid #ffffff;
+    outline: none;
+}
+
+.input::placeholder {
+    color: black;
+}
+
 .submit-btn {
     background-color: #ffffff80;
+    color: #00fdcf;
     border: none;
     margin: 4px;
     padding: 5px;
+    transition: transform 0.5s ease-out;
+}
+
+.submit-btn:hover {
+    transform: scale(.95);
+    border: 2px solid white;
+    background-color: #ffffff90;
 }
 
 .msg-input {
     height: 300px;
 }
+
+
+
 /* Contact end */
 
 
@@ -479,6 +529,11 @@ li {
     .progress-bar p {
         font-size: 20px;
         margin: 12.5px 0;
+    }
+
+    .contact iframe {
+        width: 450px;
+        height: 340px;
     }
 }
 
@@ -509,6 +564,11 @@ li {
     .skills {
         margin: 0;
     }
+
+    .contact iframe {
+        width: 400px;
+        height: 300px;
+    }
 }
 
 /* 576 */
@@ -519,5 +579,10 @@ li {
     }
     .banner-greet p {
         font-size: 33.6px;
+    }
+
+    .contact iframe {
+        width: 300px;
+        height: 225px;
     }
 }
