@@ -1,0 +1,368 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)), url("/img/code_fondo.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+body h1 {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  color: #ffffff;
+}
+body h2 {
+  color: #ffffff;
+}
+body h3 {
+  color: #00fdcf;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+body h4 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  color: #ffffff;
+}
+body h5 {
+  color: #ffffff;
+  margin: 0;
+  font-size: 40px;
+  font-weight: 800;
+}
+body h6 {
+  color: #ffffff;
+}
+body a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+}
+body li {
+  list-style-type: none;
+}
+
+header {
+  z-index: 1;
+  position: sticky;
+  top: 0px;
+}
+header nav {
+  background-color: rgba(5, 5, 5, 0.9882352941);
+}
+header nav div a .logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header nav div a .logo-container p {
+  color: #ffffff;
+  margin: 0 8px;
+  font-size: 10px;
+  font-weight: 300;
+}
+header nav div div ul li .nav-a {
+  font-size: 20px;
+  font-weight: 500;
+}
+header nav div div ul li ul {
+  background-color: rgba(68, 68, 68, 0.8) !important;
+}
+header nav div div ul li ul li .dropdown-hover:hover {
+  background-color: rgba(131, 131, 131, 0.5019607843);
+}
+
+.banner-greet {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 90vh;
+}
+.banner-greet h1 {
+  font-size: 92px;
+}
+.banner-greet span {
+  color: #00fdcf;
+}
+.banner-greet p {
+  font-size: 46.5px;
+  color: #ffffff;
+}
+
+.brands-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.brands-container .brands-container h3 {
+  font-size: 50px;
+  color: #ffffff;
+}
+.brands-container .brands-container h3 span {
+  font-size: 20px;
+  color: #00fdcf;
+}
+
+.brands-img-container {
+  display: flex;
+  width: 900px;
+  height: 430px;
+  margin: 30px;
+}
+.brands-img-container img {
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: 0.8;
+  transition: 0.5s ease;
+}
+.brands-img-container img:hover {
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+}
+
+.big-container {
+  margin-top: 50px;
+}
+.big-container .about-section .main-text p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 12.5px 0;
+}
+.big-container .about-section .about-img {
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease-out;
+}
+.big-container .about-section .about-img:hover {
+  transform: scale(0.98);
+}
+
+.big-container {
+  margin-top: 50px;
+}
+.big-container .main-skills-container .skills {
+  margin-right: 20px;
+}
+.big-container .main-skills-container .skills p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 12.5px 0;
+}
+.big-container .main-skills-container .skills .progress-bar {
+  margin-top: 50px;
+}
+.big-container .main-skills-container .skills .progress-bar p {
+  text-align: left;
+  color: #ffffff;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+.big-container .main-skills-container .skills .progress-bar .progress-bar-space {
+  height: 5px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  margin-bottom: 20px;
+}
+.big-container .main-skills-container .skills .progress-bar .progress-bar-space .progress-bar-value {
+  height: 5px;
+}
+.big-container .main-skills-container .skills .progress-bar .progress-bar-space .front-end {
+  background-color: #00fdcf;
+  width: 85%;
+}
+.big-container .main-skills-container .skills .progress-bar .progress-bar-space .react-js {
+  background-color: #bb00fd;
+  width: 70%;
+}
+.big-container .main-skills-container .skills .progress-bar .progress-bar-space .back-end {
+  background-color: #ff7042;
+  width: 50%;
+}
+.big-container .main-skills-container .skills-img {
+  margin: 0 5px;
+  transition: transform 0.3s ease-out;
+}
+.big-container .main-skills-container .skills-img:hover {
+  transform: scale(0.98);
+}
+
+.big-container {
+  margin-top: 50px;
+}
+.big-container .works-grid {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, 170px);
+  grid-template-columns: 1fr;
+}
+.big-container .works-grid .works {
+  height: 150px;
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  width: 100%;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease-out;
+}
+.big-container .works-grid .works:hover {
+  transform: scale(0.98);
+}
+.big-container .works-grid .redbull {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/banner-img/redbull.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-container .works-grid .tesla {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/banner-img/tesla.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-container .works-grid .cocacola {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/banner-img/cocacola.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-container .works-grid .bose {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/banner-img/bose.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-container .works-grid .virgin {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/banner-img/virgin.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.big-container .works-grid .project {
+  width: 100px;
+  height: 100px;
+  background-color: rgba(0, 253, 207, 0.5647058824);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: transform 0.3s ease-out;
+}
+.big-container .works-grid .project:hover {
+  transform: scale(1.2);
+  border: 2px solid white;
+}
+.big-container .works-grid .project p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: bolder;
+  margin: 0;
+  font-size: 17px;
+}
+
+.big-container {
+  margin-top: 50px;
+}
+.big-container p {
+  color: #ffffff;
+  font-size: 20px;
+  margin: 12.5px 0;
+}
+.big-container .main-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.big-container .main-contact .contact-form {
+  display: flex;
+  justify-content: center;
+  margin: 10px 10px;
+  width: 600px;
+}
+.big-container .main-contact .contact-form .form-container {
+  width: 100%;
+}
+.big-container .main-contact .contact-form .form-container div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 100%;
+}
+.big-container .main-contact .contact-form .form-container div label {
+  width: 100%;
+}
+.big-container .main-contact .contact-form .form-container div .input {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  border: none;
+  margin: 4px;
+}
+.big-container .main-contact .contact-form .form-container div .input:hover {
+  background-color: rgba(255, 255, 255, 0.5647058824);
+}
+.big-container .main-contact .contact-form .form-container div .input:focus {
+  border: 2px solid #ffffff;
+  outline: none;
+}
+.big-container .main-contact .contact-form .form-container div .input::placeholder {
+  color: #000000;
+}
+.big-container .main-contact .contact-form .form-container div .msg-input {
+  height: 250px;
+}
+.big-container .main-contact .contact-form .form-container .submit-btn {
+  background-color: rgba(255, 255, 255, 0.5019607843);
+  color: #00fdcf;
+  border: none;
+  margin: 4px;
+  padding: 5px;
+  transition: transform 1s ease-out;
+}
+.big-container .main-contact .contact-form .form-container .submit-btn:hover {
+  transform: scale(0.95);
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0.5647058824);
+}
+.big-container .main-contact .contact-map {
+  margin: 10px;
+}
+
+footer {
+  padding-bottom: 60px;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+footer ul li {
+  display: inline;
+  margin: 0 5px;
+}
+footer ul li a svg {
+  width: 23px;
+  height: 23px;
+}
+
+/*# sourceMappingURL=styles.css.map */

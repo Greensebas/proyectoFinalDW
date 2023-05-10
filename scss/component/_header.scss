@@ -1,0 +1,60 @@
+
+
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+
+    nav {
+        background-color: #050505fc;
+
+        div {
+
+            a {
+
+                .logo-container {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    p {
+                        color: #ffffff;
+                        margin: 0 8px;
+                        font-size: 10px;
+                        font-weight: 300;
+
+                    }
+                }
+            }
+
+            div{
+
+                ul {
+
+                    li {
+
+                        .nav-a {
+                            font-size: 20px;
+                            font-weight: 500;
+                            
+                        }
+
+                        ul {
+                            background-color: #444444cc!important;
+
+                            li{
+
+                                .dropdown-hover {
+                                    &:hover {
+                                        background-color: #83838380;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

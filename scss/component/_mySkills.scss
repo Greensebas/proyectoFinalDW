@@ -1,0 +1,65 @@
+.big-container {
+    margin-top: 50px;
+
+    .main-skills-container {
+
+        .skills {
+            margin-right: 20px;
+
+            p {
+                color: #ffffff;
+                font-size: 20px;
+                margin: 12.5px 0;
+            }
+            
+            .progress-bar {
+                margin-top: 50px;
+
+                p {
+                    text-align: left;
+                    color: #ffffff;
+                    font-size: 25px;
+                    margin-bottom: 5px;
+
+                }
+
+                .progress-bar-space {
+                    height: 5px;
+                    width: 100%;
+                    background-color: #ffffff80;
+                    margin-bottom: 20px;
+
+                    .progress-bar-value {
+                        height: 5px;
+                    }
+
+                    .front-end {
+                        background-color: #00fdcf;
+                        width: 85%;
+                    }
+                    
+                    .react-js {
+                        background-color: #bb00fd;
+                        width: 70%;
+                    }
+                    
+                    .back-end {
+                        background-color: #ff7042;
+                        width: 50%;
+                    }
+                }
+            }
+
+        }
+
+        .skills-img {
+            margin: 0 5px;
+            transition: transform 0.3s ease-out;
+
+            &:hover {
+                transform: scale(0.98);
+
+            }
+        }
+    }
+}

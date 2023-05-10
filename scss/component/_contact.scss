@@ -1,0 +1,87 @@
+
+
+
+.big-container {
+    margin-top: 50px;
+
+    p {
+        color: #ffffff;
+        font-size: 20px;
+        margin: 12.5px 0;
+    }
+
+    .main-contact {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .contact-form {
+            display: flex;
+            justify-content: center;
+            margin: 10px 10px;
+            width: 600px;
+
+            .form-container {
+                width: 100%;
+        
+                div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    width: 100%;
+        
+                    label {
+                        width: 100%;
+                    }
+        
+                    .input {
+                        background-color: #ffffff80;
+                        width: 100%;
+                        padding: 5px;
+                        box-sizing: border-box;
+                        border: none;
+                        margin: 4px;
+        
+                        &:hover {
+                            background-color: #ffffff90;
+                        }
+        
+                        &:focus {
+                            border: 2px solid #ffffff;
+                            outline: none;
+                        }
+        
+                        &::placeholder {
+                            color: #000000;
+                        }
+                    }
+        
+                    .msg-input {
+                        height: 250px;
+                    }
+                }
+
+                .submit-btn {
+                    background-color: #ffffff80;
+                    color: #00fdcf;
+                    border: none;
+                    margin: 4px;
+                    padding: 5px;
+                    transition: transform 1s ease-out;
+    
+                    &:hover {
+                        transform: scale(.95);
+                        border: 2px solid white;
+                        background-color: #ffffff90;
+                    }
+                }
+            }
+        }
+
+        .contact-map {
+            margin: 10px;
+        }
+        
+    }
+    
+}

@@ -1,0 +1,56 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.781), rgba(0, 0, 0, 0.775)),
+    url('/img/code_fondo.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    h1 {
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        color: #ffffff;
+    }
+    
+    h2 {
+        color: #ffffff;
+    }
+    
+    h3 {
+        color: #00fdcf;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 500;
+        margin-bottom: 30px;
+    }
+    
+    h4 {
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 300;
+        color: #ffffff;
+    }
+    
+    h5 {
+        color: #ffffff;
+        margin: 0;
+        font-size: 40px;
+        font-weight: 800;
+    }
+    
+    h6 {
+        color: #ffffff;
+    }
+    
+    a {
+        text-decoration: none;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    
+    li {
+        list-style-type: none;
+    }
+}

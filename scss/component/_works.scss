@@ -1,0 +1,91 @@
+
+
+
+.big-container {
+    margin-top: 50px;
+
+    .works-grid {
+        display: grid;
+        grid-template-rows: repeat(auto-fill, 170px);
+        grid-template-columns: 1fr;
+
+        .works {
+            height: 150px;
+            background-color: #ffffff80;
+            width: 100%;
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease-out;
+
+            &:hover {
+                transform: scale(0.98);
+            }
+        }
+
+        .redbull {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), 
+            url('/img/banner-img/redbull.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .tesla {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), 
+            url('/img/banner-img/tesla.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .cocacola {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), 
+            url('/img/banner-img/cocacola.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .bose {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), 
+            url('/img/banner-img/bose.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .virgin {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.300), rgba(0, 0, 0, 0.300)), 
+            url('/img/banner-img/virgin.png');
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .project {
+            width: 100px;
+            height: 100px;
+            background-color: #00fdcf90;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: transform 0.3s ease-out;
+        }
+        .project:hover {
+            transform: scale(1.2);
+            border: 2px solid white;
+        }
+        
+        .project p {
+            color: #ffffff;
+            font-size: 20px;
+            font-weight: bolder;
+            margin: 0;
+            font-size: 17px;
+        }
+    }
+}

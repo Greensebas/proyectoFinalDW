@@ -1,0 +1,36 @@
+
+
+
+.big-container {
+    margin-top: 50px;
+
+    .about-section {
+        .main-text {
+
+            p{
+                color: #ffffff;
+                font-size: 20px;
+                margin: 12.5px 0;
+
+            }
+        }
+
+        .about-img {
+            margin-left: 50px;
+            display: flex;
+            justify-content: center;
+            transition: transform 0.3s ease-out;
+
+            &:hover {
+                transform: scale(0.98);
+
+            }
+        }
+        
+    }
+
+}
+
+
+
+
