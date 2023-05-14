@@ -296,34 +296,44 @@ header nav div div ul li ul li .dropdown-hover:hover {
   transform: scale(0.98);
 }
 .big-container .works-grid .redbull {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/redbull.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/redbull.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 .big-container .works-grid .tesla {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/tesla.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/tesla.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 .big-container .works-grid .cocacola {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/cocacola.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/cocacola.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 .big-container .works-grid .bose {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/bose.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/bose.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 .big-container .works-grid .virgin {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/virgin.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/virgin.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 .big-container .works-grid .project {
   width: 100px;
@@ -364,8 +374,9 @@ header nav div div ul li ul li .dropdown-hover:hover {
 }
 .big-container .main-contact {
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 .big-container .main-contact .contact-form {
   display: flex;
