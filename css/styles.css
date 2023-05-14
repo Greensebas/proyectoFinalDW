@@ -169,19 +169,20 @@ header nav div div ul li ul li .dropdown-hover:hover {
   }
 }
 
-.big-container {
-  margin-top: 50px;
-}
-.big-container .about-section .main-text p {
-  color: #ffffff;
+.big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
+  color: #ededed;
   font-size: 20px;
   margin: 12.5px 0;
 }
 @media screen and (max-width: 992px) {
-  .big-container .about-section .main-text p {
+  .big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
     font-size: 15px;
     margin: 12.5px 0;
   }
+}
+
+.big-container {
+  margin-top: 50px;
 }
 .big-container .about-section .about-img {
   margin-left: 50px;
@@ -203,22 +204,23 @@ header nav div div ul li ul li .dropdown-hover:hover {
   }
 }
 
+.big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
+  color: #ededed;
+  font-size: 20px;
+  margin: 12.5px 0;
+}
+@media screen and (max-width: 992px) {
+  .big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
+    font-size: 15px;
+    margin: 12.5px 0;
+  }
+}
+
 .big-container {
   margin-top: 50px;
 }
 .big-container .main-skills-container .skills {
   margin-right: 20px;
-}
-.big-container .main-skills-container .skills p {
-  color: #ffffff;
-  font-size: 20px;
-  margin: 12.5px 0;
-}
-@media screen and (max-width: 992px) {
-  .big-container .main-skills-container .skills p {
-    font-size: 15px;
-    margin: 12.5px 0;
-  }
 }
 .big-container .main-skills-container .skills .progress-bar {
   margin-top: 50px;
@@ -358,19 +360,20 @@ header nav div div ul li ul li .dropdown-hover:hover {
   font-size: 17px;
 }
 
-.big-container {
-  margin-top: 50px;
-}
-.big-container p {
-  color: #ffffff;
+.big-container p, .big-container .about-section .main-text p, .big-container .main-skills-container .skills p {
+  color: #ededed;
   font-size: 20px;
   margin: 12.5px 0;
 }
 @media screen and (max-width: 992px) {
-  .big-container p {
+  .big-container p, .big-container .about-section .main-text p, .big-container .main-skills-container .skills p {
     font-size: 15px;
     margin: 12.5px 0;
   }
+}
+
+.big-container {
+  margin-top: 50px;
 }
 .big-container .main-contact {
   display: flex;

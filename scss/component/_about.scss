@@ -1,4 +1,4 @@
-
+@import '../base/extends';
 
 
 .big-container {
@@ -8,14 +8,7 @@
         .main-text {
 
             p{
-                color: #ffffff;
-                font-size: 20px;
-                margin: 12.5px 0;
-
-                @media screen and (max-width: 992px) {
-                    font-size: 15px;
-                    margin: 12.5px 0;
-                }
+                @extend %text
             }
         }
 

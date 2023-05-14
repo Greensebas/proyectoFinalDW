@@ -1,3 +1,5 @@
+@import '../base/extends';
+
 .big-container {
     margin-top: 50px;
 
@@ -7,14 +9,7 @@
             margin-right: 20px;
 
             p {
-                color: #ffffff;
-                font-size: 20px;
-                margin: 12.5px 0;
-
-                @media screen and (max-width: 992px) {
-                    font-size: 15px;
-                    margin: 12.5px 0;
-                }
+                @extend %text
             }
             
             .progress-bar {
