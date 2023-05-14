@@ -10,6 +10,11 @@
                 color: #ffffff;
                 font-size: 20px;
                 margin: 12.5px 0;
+
+                @media screen and (max-width: 992px) {
+                    font-size: 15px;
+                    margin: 12.5px 0;
+                }
             }
             
             .progress-bar {
@@ -20,6 +25,11 @@
                     color: #ffffff;
                     font-size: 25px;
                     margin-bottom: 5px;
+
+                    @media screen and (max-width: 992px) {
+                        font-size: 20px;
+                        margin: 12.5px 0;
+                    }
 
                 }
 
@@ -48,8 +58,12 @@
                         width: 50%;
                     }
                 }
+
             }
 
+            @media screen and (max-width: 768px) {
+                margin: 0;
+            }
         }
 
         .skills-img {
@@ -60,6 +74,10 @@
                 transform: scale(0.98);
 
             }
+        }
+
+        @media screen and (max-width: 768px) {
+            flex-direction: column;
         }
     }
 }

@@ -7,7 +7,7 @@
     align-items: center;
     justify-content: center;
 
-    .brands-container h3 {
+    h3 {
         font-size: 50px;
         color: #ffffff;
 
@@ -17,27 +17,31 @@
         }
     }
 
-}
-
-.brands-img-container {
-    display: flex;
-    width: 900px;
-    height: 430px;
-    margin: 30px;
-
-    img {
-        width: 0px;
-        flex-grow: 1;
-        object-fit: cover;
-        opacity: .8;
-        transition: .5s ease;
-
-        &:hover {
-            cursor: crosshair;
-            width: 300px;
-            opacity: 1;
-            filter: contrast(120%);
-            
+    .brands-img-container {
+        display: flex;
+        width: 900px;
+        height: 430px;
+        margin: 30px;
+    
+        img {
+            width: 0px;
+            flex-grow: 1;
+            object-fit: cover;
+            opacity: .8;
+            transition: .5s ease;
+    
+            &:hover {
+                cursor: crosshair;
+                width: 300px;
+                opacity: 1;
+                filter: contrast(120%);
+                
+            }
         }
     }
+
+    @media screen and (max-width: 992px) {
+        display: none;
+    }
 }
+

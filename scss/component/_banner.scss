@@ -8,8 +8,20 @@
     min-height: 90vh;
 
     h1 {
+        display: none;
+
+    }
+
+    h2 {
         font-size: 92px;
         
+        @media screen and (max-width: 768px) {
+            font-size: 64px;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 50px;
+        }
     }
 
     span {
@@ -21,5 +33,12 @@
         font-size: 46.5px;
         color: #ffffff;
 
+        @media screen and (max-width: 768px) {
+            font-size: 32.5px;
+        }
+
+        @media screen and (max-width: 576px) {
+            font-size: 25.5px;
+        }
     }
 }
