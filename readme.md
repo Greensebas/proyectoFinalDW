@@ -1,6 +1,8 @@
 # Portfolio de Desarrollador Web
 
-Este es mi proyecto de portfolio personal como desarrollador web. El portfolio muestra mis habilidades, proyectos y experiencia en el campo del desarrollo web.
+## Proyecto final para el curso de Desarrollo Web
+
+Este es mi proyecto de portfolio personal como desarrollador web. El portfolio muestra mis habilidades, proyectos y experiencia en el campo del desarrollo web. Muchos de estos datos han sido colocados solo como ejemplos con el objetivo de cumplir con lo solicitado en las rúbricas de evaluación 
 
 ## Características
 
@@ -11,8 +13,8 @@ Este es mi proyecto de portfolio personal como desarrollador web. El portfolio m
 
 ## Capturas de pantalla
 
-![Captura de pantalla 1](/screenshots/screenshot1.png)
-![Captura de pantalla 2](/screenshots/screenshot2.png)
+![Captura de pantalla 1](/screenshots/screenshot_home.png)
+![Captura de pantalla 2](/screenshots/screenshot_works.png)
 
 ## Tecnologías utilizadas
 
@@ -25,14 +27,12 @@ Este es mi proyecto de portfolio personal como desarrollador web. El portfolio m
 
 ## Instalación y Uso
 
-1. Clona este repositorio: `git clone https://github.com/tu-usuario/portfolio.git`
-2. Navega al directorio del proyecto: `cd portfolio`
+1. Clona este repositorio: `git clone https://github.com/Greensebas/proyectoFinalDW`
+2. Navega al directorio del proyecto: `cd proyectoFinalDW`
 3. Abre el archivo `index.html` en tu navegador web.
 
 ## Contribución
 
 ¡Aprecio cualquier tipo de contribución o sugerencia para mejorar mi portfolio! Si encuentras errores, tienes ideas para nuevas características o mejoras, o deseas reportar problemas, no dudes en abrir un problema o enviar una solicitud de extracción.
 
-## Licencia
 
-Este proyecto está licenciado bajo la [Licencia MIT](LICENSE).
