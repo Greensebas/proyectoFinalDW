@@ -205,6 +205,10 @@ header nav div div ul li ul li .dropdown-hover:hover {
   }
 }
 
+.min-h {
+  min-height: 75vh;
+}
+
 .big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
   color: #ededed;
   font-size: 20px;
@@ -281,6 +285,10 @@ header nav div div ul li ul li .dropdown-hover:hover {
   .big-container .main-skills-container {
     flex-direction: column;
   }
+}
+
+.min-h {
+  min-height: 75vh;
 }
 
 .big-container {
@@ -365,6 +373,10 @@ header nav div div ul li ul li .dropdown-hover:hover {
   font-weight: bolder;
   margin: 0;
   font-size: 17px;
+}
+
+.min-h {
+  min-height: 75vh;
 }
 
 .big-container p, .big-container .about-section .main-text p, .big-container .main-skills-container .skills p {
@@ -463,6 +475,10 @@ header nav div div ul li ul li .dropdown-hover:hover {
     width: 300px;
     height: 225px;
   }
+}
+
+.min-h {
+  min-height: 75vh;
 }
 
 footer {
