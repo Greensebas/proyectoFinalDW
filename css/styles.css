@@ -419,6 +419,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
 }
 .big-container .main-contact .contact-form .form-container div .msg-input {
   height: 250px;
+  resize: none;
 }
 .big-container .main-contact .contact-form .form-container .submit-btn {
   background-color: rgba(255, 255, 255, 0.5019607843);
