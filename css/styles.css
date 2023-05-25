@@ -431,6 +431,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
 .big-container .main-contact .contact-form .form-container .submit-btn:hover {
   transform: scale(0.95);
   border: 2px solid #ffffff;
+  padding: 3px;
   background-color: rgba(255, 255, 255, 0.5647058824);
 }
 .big-container .main-contact .contact-map {
