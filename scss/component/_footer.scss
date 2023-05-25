@@ -1,4 +1,4 @@
-
+@import '../base/colors';
 
 
 footer {
@@ -21,6 +21,10 @@ footer {
                 svg {
                     width: 23px;
                     height: 23px;
+
+                    &:hover {
+                        color: $aqua-ppal;
+                    }
                 }
             }
         }

@@ -484,5 +484,8 @@ footer ul li a svg {
   width: 23px;
   height: 23px;
 }
+footer ul li a svg:hover {
+  color: #00fdcf;
+}
 
 /*# sourceMappingURL=styles.css.map */
