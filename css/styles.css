@@ -94,7 +94,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  min-height: 90vh;
+  min-height: 95vh;
 }
 .banner-greet h1 {
   display: none;
