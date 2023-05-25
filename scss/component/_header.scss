@@ -1,4 +1,4 @@
-
+@import '../base/colors';
 
 header {
     z-index: 1;
@@ -6,7 +6,7 @@ header {
     top: 0px;
 
     nav {
-        background-color: #050505fc;
+        background-color: $bgc-nav;
 
         div {
 
@@ -19,7 +19,7 @@ header {
                     align-items: center;
 
                     p {
-                        color: #ffffff;
+                        color: $white;
                         margin: 0 8px;
                         font-size: 10px;
                         font-weight: 300;
@@ -41,13 +41,13 @@ header {
                         }
 
                         ul {
-                            background-color: #444444cc!important;
+                            background-color: $bgc-dropdown!important;
 
                             li{
 
                                 .dropdown-hover {
                                     &:hover {
-                                        background-color: #83838380;
+                                        background-color: $bgc-dropdown-hover;
                                     }
                                 }
                             }

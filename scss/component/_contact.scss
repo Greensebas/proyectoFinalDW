@@ -1,4 +1,5 @@
 @import '../base/extends';
+@import '../base/colors';
 
 
 .big-container {
@@ -34,7 +35,7 @@
                     }
         
                     .input {
-                        background-color: #ffffff80;
+                        background-color: $white-80;
                         width: 100%;
                         padding: 5px;
                         box-sizing: border-box;
@@ -42,16 +43,16 @@
                         margin: 4px;
         
                         &:hover {
-                            background-color: #ffffff90;
+                            background-color: $white-90;
                         }
         
                         &:focus {
-                            border: 2px solid #ffffff;
+                            border: 2px solid $white;
                             outline: none;
                         }
         
                         &::placeholder {
-                            color: #000000;
+                            color: $black;
                         }
                     }
         
@@ -61,8 +62,8 @@
                 }
 
                 .submit-btn {
-                    background-color: #ffffff80;
-                    color: #00fdcf;
+                    background-color: $white-80;
+                    color: $aqua-ppal;
                     border: none;
                     margin: 4px;
                     padding: 5px;
@@ -70,8 +71,8 @@
     
                     &:hover {
                         transform: scale(.95);
-                        border: 2px solid white;
-                        background-color: #ffffff90;
+                        border: 2px solid $white;
+                        background-color: $white-90;
                     }
                 }
             }

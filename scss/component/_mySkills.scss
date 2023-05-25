@@ -1,4 +1,6 @@
 @import '../base/extends';
+@import '../base/colors';
+@import '../base/mixins';
 
 .big-container {
     margin-top: 50px;
@@ -17,7 +19,7 @@
 
                 p {
                     text-align: left;
-                    color: #ffffff;
+                    color: $white;
                     font-size: 25px;
                     margin-bottom: 5px;
 
@@ -31,7 +33,7 @@
                 .progress-bar-space {
                     height: 5px;
                     width: 100%;
-                    background-color: #ffffff80;
+                    background-color: $white-80;
                     margin-bottom: 20px;
 
                     .progress-bar-value {
@@ -39,18 +41,15 @@
                     }
 
                     .front-end {
-                        background-color: #00fdcf;
-                        width: 85%;
+                        @include progress-bar ($aqua-ppal, 85%);
                     }
                     
                     .react-js {
-                        background-color: #bb00fd;
-                        width: 70%;
+                        @include progress-bar ($fuschia-ppal, 70%);
                     }
                     
                     .back-end {
-                        background-color: #ff7042;
-                        width: 50%;
+                        @include progress-bar ($orange-ppal, 50%);
                     }
                 }
 

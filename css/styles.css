@@ -302,40 +302,40 @@ header nav div div ul li ul li .dropdown-hover:hover {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 .big-container .works-grid .tesla {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/tesla.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 .big-container .works-grid .cocacola {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/cocacola.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 .big-container .works-grid .bose {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/bose.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 .big-container .works-grid .virgin {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/banner-img/virgin.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  border-left: 1px solid white;
-  border-right: 1px solid white;
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
 }
 .big-container .works-grid .project {
   width: 100px;
@@ -350,7 +350,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
 }
 .big-container .works-grid .project:hover {
   transform: scale(1.2);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
 }
 .big-container .works-grid .project p {
   color: #ffffff;
@@ -430,7 +430,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
 }
 .big-container .main-contact .contact-form .form-container .submit-btn:hover {
   transform: scale(0.95);
-  border: 2px solid white;
+  border: 2px solid #ffffff;
   background-color: rgba(255, 255, 255, 0.5647058824);
 }
 .big-container .main-contact .contact-map {

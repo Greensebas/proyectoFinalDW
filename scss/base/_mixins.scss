@@ -1,0 +1,4 @@
+@mixin progress-bar ($background-color, $width) {
+    background-color: $background-color;
+    width: $width;
+}
