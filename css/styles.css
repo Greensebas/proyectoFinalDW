@@ -173,6 +173,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
   color: #ededed;
   font-size: 20px;
   margin: 12.5px 0;
+  text-align: justify;
 }
 @media screen and (max-width: 992px) {
   .big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
@@ -208,6 +209,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
   color: #ededed;
   font-size: 20px;
   margin: 12.5px 0;
+  text-align: justify;
 }
 @media screen and (max-width: 992px) {
   .big-container p, .big-container .main-skills-container .skills p, .big-container .about-section .main-text p {
@@ -269,6 +271,11 @@ header nav div div ul li ul li .dropdown-hover:hover {
 }
 .big-container .main-skills-container .skills-img:hover {
   transform: scale(0.98);
+}
+@media screen and (max-width: 768px) {
+  .big-container .main-skills-container .skills-img {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 768px) {
   .big-container .main-skills-container {
@@ -364,6 +371,7 @@ header nav div div ul li ul li .dropdown-hover:hover {
   color: #ededed;
   font-size: 20px;
   margin: 12.5px 0;
+  text-align: justify;
 }
 @media screen and (max-width: 992px) {
   .big-container p, .big-container .about-section .main-text p, .big-container .main-skills-container .skills p {
